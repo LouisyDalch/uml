@@ -47,7 +47,6 @@ EquipeSuporte o-right- "*" MembroEquipeSuporte: tem membro
 MembroEquipeSuporte -u-|> Funcionario
 @enduml
 ```
-<img width="886" height="499" alt="image" src="https://github.com/user-attachments/assets/8cf2865d-b3f2-4066-8e15-9385c9aec13d" />
 
 ## Processos de negócios
 Em seguida precisamos entender como um chamado é tratado pelos
@@ -92,8 +91,6 @@ stop
 @enduml
 ```
 
-<img width="886" height="800" alt="image" src="https://github.com/user-attachments/assets/c89e1341-e77a-4243-bbd5-e180220d86ca" />
-
 ## Ciclo de Vida de Entidades de Interesse
 Podemos verificar que o ciclo de vida da entidade de negócio Chamado é
 bastante complexo. Vamos modelar seu ciclo de vida utilizando um
@@ -115,7 +112,6 @@ EmAnálise -down---> Respondido: [responde]
 Respondido -down->[*]: [encerra]
 @enduml
 ```
-<img width="438" height="853" alt="image" src="https://github.com/user-attachments/assets/82c30b84-46a0-4f8e-8240-0f0623827be1" />
 
 ## Especificação da solução
 Com todo o conhecimento do domínio de negócio é possível definirmos o
@@ -158,4 +154,4 @@ rectangle "Sistema de acompanhamento de chamados"{
 }
 @enduml
 ```
-<img width="711" height="877" alt="image" src="https://github.com/user-attachments/assets/e7946f1c-9711-4bb3-90bd-d836c342280e" />
+
